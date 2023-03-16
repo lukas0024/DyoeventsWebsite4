@@ -4,8 +4,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Dyoevents Gallery</title>
-        <link rel="stylesheet" href="output.css">
+        <title>Dyoevents Events</title>
+        <link rel="stylesheet" href="stylesheets/output.css">
         <link rel="icon" type="image/x-icon" href="img/icon.png" />
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     </head>
@@ -20,9 +20,9 @@
             <div class="flex items-center">
               <div class="hidden md:block">
                 <button><a href="index.html" class="mx-4 hover:text-cyan-300 uppercase text-xl font-semibold">Home</a></button>
-                <button><a href="events.html" class="mx-4 hover:text-cyan-300 uppercase text-xl font-semibold">Events</a></button>
+                <button><a href="events.html" class="mx-4 text-cyan-500 hover:text-cyan-300 uppercase text-xl font-semibold">Events</a></button>
                 <button><a href="aboutUs.html" class="mx-4 hover:text-cyan-300 uppercase text-xl font-semibold">About Us</a></button>
-                <button><a href="gallery.html" class="mx-4 text-cyan-500 hover:text-cyan-300 uppercase text-xl font-semibold">Gallery</a></button>
+                <button><a href="gallery.html" class="mx-4 hover:text-cyan-300 uppercase text-xl font-semibold">Gallery</a></button>
                 <button><a href="contact.html" class="mx-4 hover:text-cyan-300 uppercase text-xl font-semibold">Contact</a></button>
               </div>
               <button class="md:hidden flex items-center px-3 py-2 border rounded text-gray-400 border-gray-400 hover:text-white hover:border-white" id="mobile-menu-button">
@@ -35,13 +35,35 @@
           </nav>
           <div class="md:hidden hidden bg-zinc-900" id="mobile-menu">
             <a href="index.html" class="block py-2 px-4 text-sm hover:text-cyan-300 uppercase font-semibold">Home</a>
-            <a href="events.html" class="block py-2 px-4 text-sm hover:text-cyan-300 uppercase font-semibold">Events</a>
+            <a href="events.html" class="block py-2 px-4 text-sm text-cyan-500 hover:text-cyan-300 uppercase font-semibold">Events</a>
             <a href="aboutUs.html" class="block py-2 px-4 text-sm hover:text-cyan-300 uppercase font-semibold">About Us</a>
-            <a href="gallery.html" class="block py-2 px-4 text-sm text-cyan-500 hover:text-cyan-300 uppercase font-semibold">Gallery</a>
+            <a href="gallery.html" class="block py-2 px-4 text-sm hover:text-cyan-300 uppercase font-semibold">Gallery</a>
             <a href="contact.html" class="block py-2 px-4 text-sm hover:text-cyan-300 uppercase font-semibold">Contact</a>
           </div>
         </header>
-        
+        <div class="max-w-6xl mx-auto my-12 px-4 sm:px-6 lg:px-8 grid gap-8 grid-cols-1 md:grid-cols-2 mt-20">
+          <div style="text-shadow: 0 0 3px #000000, 0 0 5px #000000;" class="flex text-white">
+            <img src="img/posters/NeonNight15_04_gross.png" alt="Eventbild" class="w-1/2 h-full object-cover rounded-lg shadow-md">
+            <div class="flex flex-col justify-center ml-8">
+              <h2 class="text-2xl font-bold mb-2 uppercase">Neon Night</h2>
+              <h3 class="text-xl font-bold mb-2">@ Barock Club Basel</h3>
+              <p class="text-white mb-4">15. April 22:00 - 16. April 04:00</p>
+              <a href="events/neon_night_barock_15_04.html" 
+              class="bg-black text-white py-2 px-4 rounded font-semibold">Mehr erfahren</a>
+            </div>
+          </div>
+          <div style="text-shadow: 0 0 3px #000000, 0 0 5px #000000;" class="flex text-white">
+            <img src="img/posters/NightPulse22_04_gross.png" alt="Eventbild" class="w-1/2 h-full object-cover rounded-lg shadow-md">
+            <div class="flex flex-col justify-center ml-8">
+              <h2 class="text-2xl font-bold mb-2 uppercase">Night Pulse</h2>
+              <h3 class="text-xl font-bold mb-2">@ Flössereplatz Aarau</h3>
+              <p class="text-white mb-4">22. April 22:00 - 23. April 04:00</p>
+              <a href="events/night_pulse_floesserplatz_22_04.html" 
+              class="bg-black text-white py-2 px-4 rounded font-semibold">Mehr erfahren</a>
+            </div>
+          </div>
+          <!-- Hier können weitere Events hinzugefügt werden -->
+        </div>!
         <footer class="bg-black text-white mt-20">
           <div class="max-w-6xl mx-auto py-8 px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center">
               <div class="mr-4">
