@@ -1041,4 +1041,12 @@ video {
     padding-left: 2rem;
     padding-right: 2rem;
   }
+
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
 }
